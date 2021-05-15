@@ -8,7 +8,7 @@ for (let i = 0; i < textUno.length; i++) {
 }
 
 for (let i = 0; i < textDos.length; i++) {
-    const textTwo = textDos[i].innerHTML='[beta releases]';
+    const textTwo = textDos[i].innerHTML='[alpha releases]';
 }
 
 for (let i = 0; i < textTres.length; i++) {
