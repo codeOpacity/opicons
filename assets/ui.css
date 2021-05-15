@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.element_btn {
+  display: inline-block;
+  font-family: "Roboto", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: rgba(238, 122, 116, 0.795);
+  border-radius: 4px 4px 4px 4px;
+  padding: 12px 54px 12px 30px;
+}
+
+.element_otn {
+  display: inline-block;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #1F2029;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-box-shadow: 0px 16px 27px 0px rgba(31, 32, 41, 0.151);
+          box-shadow: 0px 16px 27px 0px rgba(31, 32, 41, 0.151);
+  padding: 0px 40px 0px 40px;
+}
+
+/*1 – uno
+2 – dos
+3 – tres
+4 – cuatro
+5 – cinco
+6 – seis
+7 – siete
+8 – ocho
+9 – nueve
+10 – diez*/
+:root {
+  --ale_uno: #353675;
+  --ale_dos: #a653a2;
+  --ale_tres: #e4799b;
+  --ale_cuatro: #e9ebed;
+  --amp_uno: #3e54d3;
+  --amp_dos: #4f80e2;
+  --amp_tres: #15cdca;
+  --amp_cuatro: #45e0b6;
+  --sea_uno: #2e9599;
+  --sea_dos: #f7dc68;
+  --sea_tres: #f46c3f;
+  --sea_cuatro: #a7226f;
+  --hot_uno: #c61063;
+  --hot_dos: #f50057;
+  --hot_tres: #ff4081;
+  --hot_cuatro: #ff80ab;
+  --mat_uno: #293556;
+  --mat_dos: #2e4583;
+  --mat-tres: #3e60c1;
+  --mat-cuatro: #5983fc;
+  --mer-uno: #691d43;
+  --mer-dos: #ce405f;
+  --mer-tres: #fd8383;
+  --mer-cuatro: #e9ebed;
+  --pet-uno: #4c4141;
+  --pet-dos: #ef534f;
+  --pet-tres: #fb7e96;
+  --pet-cuatro: #ffcdd2;
+  --sca_uno: #7339ab;
+  --sca_dos: #625ad8;
+  --sca_tres: #1f9ce4;
+  --sca_cuatro: #88f4ff;
+  --str_uno: #f14666;
+  --str_dos: #ee8980;
+  --str_tres: #ffcdaa;
+  --str_cuatro: #9cb898;
+  --sun_uno: #5f236b;
+  --sun_dos: #be375f;
+  --sun_tres: #ed8554;
+  --sun_cuatro: #f5eb6d;
+  --tur_uno: #e5efc1;
+  --tur_dos: #a2d5ab;
+  --tur_tres: #39aea9;
+  --tur_cuatro: #557b83;
+  --vel_uno: #313866;
+  --vel_dos: #50409a;
+  --vel_tres: #964ec2;
+  --vel_cuatro: #ff7bbf;
+  --war_uno: #c5211c;
+  --war_dos: #e4443f;
+  --war_tres: #f59b65;
+  --war_cuatro: #f7ba79;
+  --wav_uno: #3a3c6e;
+  --wav_dos: #506ed1;
+  --wav_tres: #73b4f1;
+  --wav_cuatro: #e9ebed;
+}
+/*# sourceMappingURL=ui.css.map */

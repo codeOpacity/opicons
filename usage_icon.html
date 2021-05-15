@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="https://hunterraihan.github.io/op_css/opacitymin/opacity_plus.css">
+    <link rel="stylesheet" href="./assets/icon/icons.css">
+    <link rel="stylesheet" href="../icon/style.css">
+</head>
+<body>
+    <header class="nav_bar stick_top">
+        <div class="container">
+            <nav class="nav">
+                <img class="nav_logo" src="./assets/image/logo1.png" alt="Logo">
+                <!--Toggler-->
+                <div class="nav_toggler"><span class="nav_icon"></span></div>
+                <!--Navigation-->
+                <div class="navigation">
+                        <ul class="menu">
+                            <li class="nav_item">
+                                <a href="./inner_icon.html" class="nav_link active">Icons</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="./usage_icon.html" class="nav_link">Usage</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://github.com/codeOpacity/op_icons" class="nav_link">Github <span class="op-external-link"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/codeOpacity/op_icons/archive/refs/heads/main.zip" class="btn_success sm d_i m-0" download ><span class="op-download"></span> Designer</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner g_center tac pt-7">
+            <div class="container">
+                <div class="banner_text py-3">
+                    <h2 class="d_i"></h2> <span class="changelog"></span>
+                    <p class="mt-4"></p>
+                    <div class="anime_wrap">
+                        <span class="anime">
+                            <span>Opacity.css</span>
+                            <span>OpIcons</span>
+                            <span>feathericons</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="usage">
+            <div class="container">
+                <h2>Usage:</h2>
+                <p>
+                    OpIcon is a completely open-source icon set with 280+ icons crafted for web apps. OpIcons was built for Opacity CSS Framework, so icons have only outline versions. When used with Ionic, the ion-icon component will automatically use the correct version based on your platform.
+                </p>
+                
+                    <h3>Using the Font Icon</h3>
+                    <p>The font icon is compatible with previous versions of Ionicons. If you're using Ionicons for the first time we strongly recommend using the ion-icon web component instead.</p>
+
+                    <p>An advantage to the font icon file is that all of the icons are in one file. A disadvantage to the font icon file is that all of the icons are in one file. Additionally, large font files have a negative impact on a webpage's time to first paint.</p>
+                    <p>In most cases it may be better to request a small number of svgs using the web component method. A bonus with the web component is that it uses Intersection Observer to only request icons which are viewable by the users (icons above the fold). However, if a webpage has to show many icons at once (such as this website's homepage which is showing 700+ icons on one page), the font icon may be a better choice.</p>
+                    
+                    <h3>Installation</h3>
+                    <p>To embed the Ionicons font icon, copy this code into the <span class="color_code">&lt;head&gt;</head></span> of the HTML document.</p>
+                    
+                    <pre class="html_code">
+                        <code>
+                            &lt;link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"&gt;
+                        </code>
+                    </pre>
+
+                <h3>Basic usage</h3>
+                <p>Use the icon index to look up the name of the icon you want to use. The icon's CSS class name will be prefixed with <span class="color_code">op-</span>, followed by the the icon name.</p>
+
+                <pre class="html_code"><code>
+                    &lt;span class="op-heart"&gt;&lt;/span&gt;</code>
+                </pre>
+                <h3>Font Size</h3>
+                <p>you can set a specific size by applying the font-size CSS property on the ion-icon component. It's recommended to use pixel sizes that are a multiple of <span class="color_code">8 (8, 16, 32, 64, etc.)</span>
+                    <pre class="css_code"><code>
+                        span.[icon name] {
+                            font-size: 64px;
+                            color: blue;
+                        }</code>
+                    </pre>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="o-grid aic">
+                <div class="o-5">
+                    <img src="./assets/image/logo1.png" alt="" class="footer_logo">
+                    <small class="icon" class="op_5">Released under MIT License | Copyright @ 2021</small class="icon">
+                </div>
+                <div class="o-7 d_f wrap jcfe footer_links">
+                    <a href="https://github.com/feathericons/feather">Authors</a>
+                    <a href="https://github.com/colebemis/feather/blob/master/LICENSE">License</a> 
+                    <a href="https://github.com/codeOpacity/op_icons">Version</a> 
+                    <a href="#">Opacity Css</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Ui Kit-->
+    <div class="top_btn btn_success p_f op-arrow-up"></div>
+    <span class="op-sun dark_switch"></span>
+    <!--Ui Kit-->
+    <script src="https://hunterraihan.github.io/op_css/opacitymin/js/opacit.js"></script>
+    <script src="./assets/js/icon.js"></script>
+</body>
+</html>

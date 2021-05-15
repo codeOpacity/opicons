@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.details{
+    padding: 1.2rem 0 0 0;
+}
+.copy_btn{
+    color: var(--success-color);
+    font-size: 1.2rem;
+    cursor: crosshair;
+}
+
+.sticktotop{
+    position: sticky;
+    top: 14%;
+    left: 0;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    padding: 1rem 0;
+    font-size: clamp(1.25rem,3vw,1.5rem);
+    a{
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+code{
+    font-size: 1rem;
+}
+
+.side_nav{
+    list-style: none;
+    .doc_link{
+        font-size: .9rem;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.685);
+        padding: .3rem;
+        border-left: 3px solid transparent;
+        margin: .2rem 0;
+        transition: border .3s;
+        display: inline-block;
+        &:hover{
+            border-left: 3px solid var(--success-color);
+        }
+    }
+}
+pre{
+    border-radius: 10px;
+}
+//@at-root
+
+.card{
+    .icon{
+        display: inline-block;
+        height: 55px;
+        width: 55px;
+        padding: 3px;
+        border-radius: 6px;
+        box-shadow: var(--shadow);
+        display: grid;
+        place-items: center;
+        margin-bottom: 1rem;
+        span{
+            font-size: 1.52rem;
+            color: #fff;
+        }
+    }
+}
