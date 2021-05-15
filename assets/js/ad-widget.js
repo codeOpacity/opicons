@@ -17,7 +17,7 @@
 
 	var items = [
 		{
-			name: 'Opacity.css; Mighty Responsive Multipurpose Slider',
+			name: 'Opacity.css; Minimal responsive multipurpose frameworks',
 			description: 'Everything you ever wanted in an animated content and image slider, all packaged up into one awesome plugin! Smooth, powerful, limitless, fully responsive and touch-enabled slider plugin for everyone including designers & developers. Learn how this feature rich plugin is just waiting to amp up your website.',
 			url: 'http://www.mightyslider.com/',
 			bgColor: '#fd6a62',
@@ -26,16 +26,16 @@
 		},
 		{
 			name: 'Repress - creative html template',
-			description: 'WordPress Gallery Extra is the most intuitive and extensible gallery management tool ever created for WordPress. It comes with a lot of great features and templates, but at the same time we always try to keep things as simple and intuitive as possible, so that users with little WordPress experience have no problem using it as well.',
-			url: 'https://www.wordpress-extra.gallery/',
+			description: 'Repress – is a Creative Onepage Portfolio Template. You can use this template for your personal website, digital service agencies portfolio, personal portfolio, designers showcase, web design works, freelance designers portfolio and other who got to showcase their works..',
+			url: 'https://www.templatemonster.com/landing-page-template/repress-a-onepage-portfolio-template-178474.html',
 			bgColor: '#15cdca',
 			color: '#d0e4f8',
 			priority: 2
 		},
 		{
-			name: 'iLightBox &middot; Revolutionary Lightbox Plugin',
-			description: 'iLightBox allows you to easily create the most beautiful overlay windows using the jQuery Javascript library. By combining support for a wide range of media with gorgeous skins and a user-friendly API, iLightBox aims to push the Lightbox concept as far as possible.',
-			url: 'http://www.ilightbox.net/',
+			name: 'Alexz - Revolutionary Html Template',
+			description: 'Alexz – Creative Agency & Personal One Page/Multipurpose HTML Template. The template is designed for any type of Design Agencies, Portfolios, Corporate websites, and others. The template is Super Easy To Use.',
+			url: 'https://www.codester.com/items/29020/alexz-creative-agency-and-personal-one-page',
 			bgColor: '#3e60c1',
 			color: '#d0e4f8',
 			priority: 1
