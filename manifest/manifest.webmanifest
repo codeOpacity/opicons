@@ -1,0 +1,32 @@
+{
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "display": "fullscreen",
+    "scope": "/https://opicons.vercel.app/",
+    "start_url": "/https://opicons.vercel.app/",
+    "name": "Opacity Icons",
+    "short_name": "OpIcons",
+    "description": "The fast growing and easiest to use icon set just got an upgrade. Stylish icons. premium styles icons. More Options. Download all icons for free.",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
