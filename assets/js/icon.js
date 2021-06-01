@@ -46,3 +46,22 @@ this.scrollY>500? topBtn.style.display = 'block' :  topBtn.style.display = 'none
 }
 
 //Find Search
+
+function searchFunction() {
+  var Input, filter, table, tr, td, i;
+  Input = document.getElementById("searchInput");
+  filter = Input.value.toUpperCase();
+  table = document.getElementById("searchTable");
+  tr = table.getElementsByClassName("o-2");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByClassName("icon")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
