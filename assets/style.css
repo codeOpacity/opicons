@@ -60,6 +60,26 @@ code {
 .side_nav .doc_link:hover {
   border-left: 3px solid var(--success-color);
 }
+.search_bar {
+  margin-bottom: 4rem;
+}
+
+.search_bar input {
+  max-width: 600px;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.109);
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+  opacity: .8;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.search_bar input:hover {
+  opacity: 1;
+}
 
 pre {
   border-radius: 10px;
