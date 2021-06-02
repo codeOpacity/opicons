@@ -78,7 +78,8 @@
                     <div class="search_bar g_center">
                         <input class="" type="text" placeholder="Search for icons.." id="searchInput" onkeyup="searchFunction()">
                     </div>
-                    <div class="o-grid">
+
+                    <div class="o-grid" id="searchTable">
                         <div class="o-2">
                             <div class="card app app tac g_center py-3">
                                 <span class="op-activity"></span>
@@ -1894,25 +1895,5 @@
     <script src="https://hunterraihan.github.io/op_css/opacitymin/js/opacit.js"></script>
     <script src="./assets/js/icon.js"></script>
     <script src="./assets/js/ad-widget.js"></script>
-    <script>
-        function searchFunction() {
-  var Input, filter, table, tr, td, i;
-  Input = document.getElementById("searchInput");
-  filter = Input.value.toUpperCase();
-  table = document.getElementById("searchTable");
-  tr = table.getElementsByClassName("o-2");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByClassName("icon")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }
-  }
-}
-    </script>
 </body>
 </html>
